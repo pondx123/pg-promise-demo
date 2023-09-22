@@ -14,8 +14,42 @@
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "29025651-ce8c-43b9-b5fa-c3d791533410",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "https://demo.autofast.vip/panel_admin?29025651-ce8c-43b9-b5fa-c3d791533410",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"autofast",
+						"vip"
+					],
+					"path": [
+						"panel_admin"
+					],
+					"query": [
+						{
+							"key": "29025651-ce8c-43b9-b5fa-c3d791533410",
+							"value": null,
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
